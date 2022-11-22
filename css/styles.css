@@ -123,6 +123,8 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
+
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -147,6 +149,8 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
+
+  cursor: pointer;
 }
 
 .button:hover,
