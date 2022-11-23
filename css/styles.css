@@ -209,8 +209,6 @@ body {
   background-color: var(--title-text-color);
 }
 
-.qualitie-title,
-.filter-buttons,
-.portfolio-title {
+.hidden {
   display: none;
 }
