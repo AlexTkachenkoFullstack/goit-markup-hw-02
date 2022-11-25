@@ -8,13 +8,13 @@
   --team-background-color: #f4f4fd;
   --text-color-img-portfolio: #f4f4fd;
 
-  --primary-font:Roboto, sans-serif;
+  --primary-font: 'Roboto', sans-serif;
   --primary-font-size: 16px;
-  --secondary-font-size:20px;
+  --secondary-font-size: 20px;
   --primary-line-height: 1.5;
   --secondary-line-height: 1.2;
-  --primary-letter-spacing:0.02em;
-  --secondary-font-weight: 700;
+  --primary-letter-spacing: 0.02em;
+  --secondary-font-weight: 800;
 }
 
 body {
@@ -51,7 +51,6 @@ body {
 
 /* ===========================================================/GENERAL======================================== */
 
-
 /* вторичный цвет фона #F4F4FD */
 
 /* цвет основнорго  текста #2E2F42 */
@@ -62,12 +61,11 @@ body {
 /* цвет текста на страничках в портфолио #F4F4FD */
 /* белый #FFFFFF */
 
-
 /* ===========================================================HEADER, FOOTER  LOGO============================== */
 .logo-web {
   color: var(--accent);
 
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: var(--secondary-font-weight);
   font-size: 18px;
   line-height: 1.3;
@@ -85,7 +83,7 @@ body {
 .logo-studio {
   color: var(--title-text-color);
 
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .logo-studio:hover,
@@ -96,7 +94,7 @@ body {
 .studio-white {
   color: var(--text-color-img-portfolio);
 
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .studio-white:hover,
@@ -116,7 +114,7 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--primary-text-color);
+  color: var(--accent);
 }
 
 .site-nav .link:active {
@@ -166,8 +164,7 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  color: var(--primary-background-color);
-  background-color: var(--accent);
+  background-color: #404bbf;
 }
 
 .hero-button:active {
@@ -177,18 +174,18 @@ body {
 
 /* ===============================================PORTFOLIO BUTTON FILTER ============================== */
 .button {
-  background-color: var(--button-filter-color);
+  background-color: var(--team-background-color);
   color: var(--accent);
 
   font-family: var(--primary-font);
-font-style: normal;
-font-weight: 600;
-font-size: var(--primary-font-size);
-line-height: var(--primary-line-height);
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--primary-font-size);
+  line-height: var(--primary-line-height);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
 
   cursor: pointer;
 }
@@ -205,7 +202,7 @@ letter-spacing: 0.04em;
   color: var(--title-text-color);
 
   font-weight: var(--secondary-font-weight);
-  font-size: var(--secondary-font-size);;
+  font-size: var(--secondary-font-size);
   line-height: var(--secondary-line-height);
 }
 /* =====================================================/INDEX QUALITY============================================ */
@@ -224,6 +221,10 @@ letter-spacing: 0.04em;
 
 .team {
   background-color: var(--team-background-color);
+}
+
+.team-item {
+  background-color: var(--primary-background-color);
 }
 
 .team-name {
@@ -254,6 +255,5 @@ letter-spacing: 0.04em;
 
 .footer-text {
   color: var(--footer-text-color);
-  
 }
 /* =========================================================/FOOTER================================================== */
