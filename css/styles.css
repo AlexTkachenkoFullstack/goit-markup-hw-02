@@ -172,30 +172,6 @@ body {
 }
 /* ================================================/INDEX HERO======================================== */
 
-/* ===============================================PORTFOLIO BUTTON FILTER ============================== */
-.button {
-  background-color: var(--team-background-color);
-  color: var(--accent);
-
-  font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 600;
-  font-size: var(--primary-font-size);
-  line-height: var(--primary-line-height);
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-
-  cursor: pointer;
-}
-
-.button:hover,
-.button:focus {
-  color: var(--primary-background-color);
-  background-color: var(--accent);
-}
-/* =======================================================/PORTFOLIO BUTTON FILTER================================== */
 
 /* ======================================================INDEX QUALITY============================================= */
 .quality-name {
@@ -238,6 +214,32 @@ body {
 }
 /* ========================================================/INDEX TEAM====================================== */
 
+/* ===============================================PORTFOLIO BUTTON FILTER ============================== */
+.button {
+  background-color: var(--team-background-color);
+  color: var(--accent);
+
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--primary-font-size);
+  line-height: var(--primary-line-height);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--primary-background-color);
+  background-color: var(--accent);
+}
+/* =======================================================/PORTFOLIO BUTTON FILTER================================ */
+
+
 /* ======================================================PORTFOLIO ITEMS=====================================*/
 .portfolio-name {
   color: var(--title-text-color);
@@ -245,6 +247,17 @@ body {
   font-weight: var(--secondary-font-weight);
   font-size: var(--secondary-font-size);
   line-height: var(--secondary-line-height);
+}
+
+.portfolio-catogory{
+  color:var(--primary-text-color);
+}
+
+.portfolio-link>.portfolio-catogory:hover, 
+.portfolio-link>.portfolio-catogory:focus, 
+.portfolio-link>.portfolio-name:hover, 
+.portfolio-link>.portfolio-name:focus{
+  color:var(--accent);
 }
 /* ===============================================================/PORTFOLIO ITEMS=================================== */
 
