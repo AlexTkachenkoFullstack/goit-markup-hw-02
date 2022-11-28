@@ -253,12 +253,6 @@ body {
   color:var(--primary-text-color);
 }
 
-.portfolio-link>.portfolio-catogory:hover, 
-.portfolio-link>.portfolio-catogory:focus, 
-.portfolio-link>.portfolio-name:hover, 
-.portfolio-link>.portfolio-name:focus{
-  color:var(--accent);
-}
 /* ===============================================================/PORTFOLIO ITEMS=================================== */
 
 /* ============================================================F00TER================================================= */
